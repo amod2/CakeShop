@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/id"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="0dp"
+    android:layout_marginBottom="20dp"
+    tools:context=".BillManager">
+
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="382dp"
+        android:layout_height="540dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginRight="2dp"
+        android:padding="20dp"
+        android:paddingBottom="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tv1"
+                android:layout_width="62dp"
+                android:layout_height="wrap_content"
+                android:text="Baloon" />
+
+            <AutoCompleteTextView
+                android:id="@+id/baloon"
+                android:layout_width="160dp"
+                android:layout_height="match_parent"
+                android:ems="10"
+                android:hint="Baloons"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/qty1"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="1"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/price1"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tv2"
+                android:layout_width="62dp"
+                android:layout_height="wrap_content"
+                android:text="Candle" />
+
+            <AutoCompleteTextView
+                android:id="@+id/candle"
+                android:layout_width="145dp"
+                android:layout_height="match_parent"
+                android:ems="10"
+                android:hint="Candle"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/qty2"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:width="10dp"
+                android:ems="10"
+                android:hint="1"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/price2"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tv3"
+                android:layout_width="62dp"
+                android:layout_height="wrap_content"
+                android:text="Years" />
+
+            <AutoCompleteTextView
+                android:id="@+id/yearcandle"
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:ems="10"
+                android:hint="Year Candle"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/qty3"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="1"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/price3"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tv4"
+                android:layout_width="62dp"
+                android:layout_height="wrap_content"
+                android:text="Cap" />
+
+            <AutoCompleteTextView
+                android:id="@+id/cap"
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:ems="10"
+                android:hint="Cap"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/qty4"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:width="10dp"
+                android:ems="10"
+                android:hint="1"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/price4"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tv5"
+                android:layout_width="62dp"
+                android:layout_height="wrap_content"
+                android:text="Taj" />
+
+            <AutoCompleteTextView
+                android:id="@+id/taj"
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:ems="10"
+                android:hint="Taj"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/qty5"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:width="10dp"
+                android:ems="10"
+                android:hint="1"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/price5"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tv6"
+                android:layout_width="62dp"
+                android:layout_height="wrap_content"
+                android:text="Spark" />
+
+            <AutoCompleteTextView
+                android:id="@+id/spark"
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:ems="10"
+                android:hint="spark candle"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/qty6"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:width="10dp"
+                android:ems="10"
+                android:hint="1"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/price6"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tv7"
+                android:layout_width="62dp"
+                android:layout_height="wrap_content"
+                android:text="Lotus" />
+
+            <AutoCompleteTextView
+                android:id="@+id/lotus"
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:ems="10"
+                android:hint="Lotus candle"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/qty7"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="1"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/price7"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tv8"
+                android:layout_width="62dp"
+                android:layout_height="wrap_content"
+                android:text="Banner" />
+
+            <AutoCompleteTextView
+                android:id="@+id/banner"
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:ems="10"
+                android:hint="Happy Birthday Banner"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/qty8"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="1"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/price8"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tv9"
+                android:layout_width="62dp"
+                android:layout_height="wrap_content"
+                android:text="Slash" />
+
+            <AutoCompleteTextView
+                android:id="@+id/slash"
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:ems="10"
+                android:hint="Baloon type"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/qty9"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="1"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/price9"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tv10"
+                android:layout_width="62dp"
+                android:layout_height="wrap_content"
+                android:text="Spray" />
+
+            <AutoCompleteTextView
+                android:id="@+id/spray"
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:ems="10"
+                android:hint="Snow Spray"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/qty10"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="1"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/price10"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tv11"
+                android:layout_width="62dp"
+                android:layout_height="wrap_content"
+                android:text="Popper" />
+
+            <AutoCompleteTextView
+                android:id="@+id/popper"
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:ems="10"
+                android:hint="Party Popper"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/qty11"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:width="10dp"
+                android:ems="10"
+                android:hint="1"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/price11"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number" />
+        </TableRow>
+
+    </TableLayout>
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="278dp"
+        android:layout_height="40dp"
+        android:text="Calculate Bill"
+        android:onClick="CalBill"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+</androidx.constraintlayout.widget.ConstraintLayout>
